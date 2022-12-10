@@ -45,3 +45,30 @@ nav {
     margin: -10px;
 }
 
+.likes {
+    .likepink {
+        display:none;
+    }
+    &:hover {
+        .likepink {
+            display:inline-block;
+        }
+        .likewhite {
+            display: none;
+        }
+    }
+}
+
+.espaceperso {
+    .espacepersopink {
+        display: none;
+    }
+    &:hover {
+        .espacepersowhite {
+            display: none;
+        }
+        .espacepersopink {
+            display:inline-block;
+        }
+    }
+}
