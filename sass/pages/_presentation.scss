@@ -1,0 +1,39 @@
+#presprincipale {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Arial';
+    gap: -10px;
+    margin: auto;
+        h1 {
+            font-size: 32px;
+        }
+        h2 {
+            padding-top: -20px;
+        }
+        h3 {
+            color: gray;
+            font-weight: 300;
+        }
+}
+
+#mypres{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+        img {
+            width: 50%;
+            border: 5px $pinksite solid;
+            box-shadow: 0 10px 10px 0 rgba(0,0,0,.2);
+        }
+}
+
+#mydesc {
+    width: 50%;
+    padding: 20px;
+    font-family: 'Arial';
+    font-weight: 200;
+    text-align: justify;
+    font-size: 14px;
+    margin: auto;
+}

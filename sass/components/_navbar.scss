@@ -17,6 +17,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
     // position:fixed;
     left: 0;
     a {
@@ -43,6 +44,7 @@ nav {
 
 .mainimg {
     margin: -10px;
+    width: 100%;
 }
 
 .likes {

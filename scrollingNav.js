@@ -1,7 +1,5 @@
 const body = document.body;
 
-const nav = document.nav;
-
 let lastScroll = 0;
 
 window.addEventListener('scroll', () => {
@@ -24,7 +22,6 @@ window.addEventListener('scroll', () => {
   lastScroll = currentScroll
 })
 
-nav.Scroll(0, 1100);
 
 
 
